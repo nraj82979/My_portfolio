@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* All css work of side bar */
+.sidebar{
+    position: absolute;
+    background-color:gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+   padding: 62px
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 20px 0;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+/* End of side bar */
+
+/* Home page CSS*/
+.main{ 
+    width: 100vw;
+    background-color: rgb(206, 199, 199);
+}
+.container{
+    display:grid;
+}
+
+.infoContainer{
+    /* background-color:green; */
+    height: 60vh;
+    width: 100%;
+    margin: 100px auto;
+    display:flex;
+    justify-content:safe;
+     font-family: 'Roboto Condensed', sans-serif;
+     background-position-x: center;
+     background-repeat: no-repeat;
+
+}
+
+.devInfo h1{
+    font-weight:bolder;
+    margin-top: 0%;
+    margin-left: 100px;
+}
+.devInfo{
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 200px;
+    box-sizing: border-box;
+}
+.devPic img{
+    height: 70vh;
+    width: 35vw;
+    margin-left: 300px;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+
+/* End of Home page */
+/* About Me page CSS work */
+article h1{
+    font-size:50px;
+    font-weight: 1200;
+    word-spacing:0%;
+}
+
+ article img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+blockquote{
+font-size: 18px;
+margin-top: 25px;
+margin-left:200px;
+margin-right:200px;
+font-weight: bold;
+}
+
+article h5{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right:200px;
+}
+.helloo{
+     font-size: 7em;
+    font-weight: bolder;
+    margin: left 800px; 
+    margin-left: 15px;
+     font-family: 'Roboto Condensed', sans-serif;
+     text-align:  justify;
+    
+}
+.hello{
+    font-size: 3em;
+    margin-right: 200px;
+    margin-left: 15px;
+     font-family: 'Roboto Condensed', sans-serif;
+     text-align: justify;
+}
+
+.name{
+    font-size: 7em;
+    font-weight: bolder;
+    margin: left 800px; 
+    margin-left: 15px;
+     font-family: 'Roboto Condensed', sans-serif;
+     text-align:  justify;
+}
+
+.about{
+    font-size: 2.5em;
+    margin-left: 15px;
+     font-family: 'Roboto Condensed', sans-serif;
+     text-align:  justify;
+}
+   
+.moreabout{
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 23px;
+    margin-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align:  justify;}
+
+.devInfoo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+
+} 
+
+/* Home page buttons CSS */
+.buttons{
+margin-top:2.2em;
+font-size:16px;
+border-radius: 150%;
+margin-right:150px;
+}
+.btn1{
+padding: 9px 13px;
+border-radius: 20px;
+background-color: rgb(163, 191, 219);
+font-weight: bold;
+font-size: 1em;
+cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn2{
+padding: 9px 13px;
+border-radius: 20px;
+background-color: rgb(163, 191, 219);
+font-weight: bold;
+font-size: 1em;
+cursor: pointer;
+}
+
+.btn{
+padding: 9px 13px;
+border-radius: 20px;
+color:skyblue;
+background-color: rgb(86, 121, 156);
+font-weight: bold;
+font-size: 6em;
+margin:3px 3px;
+cursor: pointer;
+}
+/* Home page button end */
+
+/* contact form button work */
+.btn-sm{
+    font-size: 17px;
+    padding: 6px 14px;
+    margin:12px 0;
+}
+
+.btn:hover{
+    color:white;
+    background-color: rgb(43, 106, 168);
+}
+/* End of contact form button */
+
+
+/* Contactform CSS work */
+.contactform {
+ padding :0 34px;
+ /*  padding-top: 120px; */
+ font-family: 'Roboto Condensed', sans-serif;
+ margin:180px;
+ height: 360px;
+}
+
+.contactform h1{
+font-family: 'Source Code Pro', monospace;
+ text-align: center;
+}
+
+.contactform form div{
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    /* width: 25vw; */
+    border-radius: 5px;
+    margin:16px 0 0 0;
+    padding: 3px;
+}
+
+.contactform form{
+    margin: 0 40px;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: black;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin:5px 0;
+}
+/* contact form end */
+
+/*skills Section*/
+
+
+.title {
+    padding: 3rem 0 0 0;  
+    margin-left: 600px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.row{
+    margin-left: 400px;
+    background-color: rgb(129, 118, 118);
+    margin-right:400px;
+    border-radius: 10px;
+    margin-left: 200px;
+    padding:20px 20px 20px 20px;
+}
+
+.skills .text{
+    width: 70%;
+    margin: 1.5rem auto;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;  
+}
+body{
+    background-color: rgb(206, 199, 199);
+}
+.skills .item-text{
+    display:flex;
+    justify-content: flex-start;
+    font-weight: 800;
+    font-size: 1.3rem;
+    position:relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+}
+
+.skills item-text span:last-child{
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+.skills .item-text .w-95{
+    margin-left:85%;
+}
+.skills .item-text .w-80{
+    margin-left:85%;
+}
+.skills .item-text .w-60{
+    margin-left:85%;
+}
+.skills .item-text .w-90{
+    margin-left:85%;
+}
+.skills .item-text .w-40{
+    margin-left:85%;
+}
+.skills .item-text .w-70{
+    margin-left:85%;
+}
+.skills .item-text .w-85{
+    margin-left:85%;
+}
+.skills .item-text .w-80{
+    margin-left:85%;
+    
+}
+
+.progress{
+    margin:0.8rem 0;
+    border-radius: 10px;
+    height:16px;
+    width:70%;
+    background-color: rgb(59, 54, 54);
+    overflow: hidden;
+}
+
+.progress-bar{
+    background:rgb(174, 245, 67);
+    height: 100px;
+    border-bottom-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.progress-bar.w-95{
+    width: 95%;
+}
+.progress-bar.w-80{
+    width: 80%;
+}
+.progress-bar.w-60{
+    width: 60%;
+}
+.progress-bar.w-90{
+    width: 90%;
+}
+.progress-bar.w-40{
+    width: 40%;
+}
+.progress-bar.w-70{
+    width: 70%;
+}
+.progress-bar.w-85{
+    width: 85%;
+}
+.progress-bar.w-80{
+    width: 80%;
+}
+
+/* end of skill section */
+/* side bar work continued */
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top:10px;
+    left: 10px;
+}
+
+.cross{
+ margin-left: 146px;
+}
+
+
+@media(max-width:544px){
+      /* *{ background-color: red;} */
+.buttons{
+    font-size: 6px;
+}
+.sidebar{
+       transform: translate(-443px, 0px);
+       position: absolute;
+   }
+.devInfo{
+       font-size: 10px;
+   }
+.devPic{
+    display:none;
+}
+.intro .contactform .blogcontainer{
+  margin:8px;  
+}
+}
+/* End of sidebar */
